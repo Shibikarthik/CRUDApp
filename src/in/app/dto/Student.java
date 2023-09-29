@@ -1,4 +1,4 @@
-package in.inueron.dto;
+package in.app.dto;
 
 import java.io.Serializable;
 

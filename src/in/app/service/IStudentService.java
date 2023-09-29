@@ -1,6 +1,6 @@
-package in.inueron.service;
+package in.app.service;
 
-import in.inueron.dto.Student;
+import in.app.dto.Student;
 
 public interface IStudentService {
 

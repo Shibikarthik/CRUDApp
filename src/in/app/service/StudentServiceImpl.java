@@ -1,8 +1,8 @@
-package in.inueron.service;
+package in.app.service;
 
-import in.inueron.daofactory.StudentDaoFactory;
-import in.inueron.dto.Student;
-import in.inueron.persistence.IStudentDao;
+import in.app.daofactory.StudentDaoFactory;
+import in.app.dto.Student;
+import in.app.persistence.IStudentDao;
 
 //SERVICE LAYER
 public class StudentServiceImpl implements IStudentService {

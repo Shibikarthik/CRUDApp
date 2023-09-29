@@ -1,7 +1,7 @@
-package in.inueron.servicefactory;
+package in.app.servicefactory;
 
-import in.inueron.service.IStudentService;
-import in.inueron.service.StudentServiceImpl;
+import in.app.service.IStudentService;
+import in.app.service.StudentServiceImpl;
 
 //Abstraction logic of implementation
 public class StudentServiceFactory {

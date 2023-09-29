@@ -1,7 +1,7 @@
-package in.inueron.daofactory;
+package in.app.daofactory;
 
-import in.inueron.persistence.IStudentDao;
-import in.inueron.persistence.StudentDaoImpl;
+import in.app.persistence.IStudentDao;
+import in.app.persistence.StudentDaoImpl;
 
 public class StudentDaoFactory {
 

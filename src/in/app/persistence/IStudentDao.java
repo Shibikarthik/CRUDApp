@@ -1,6 +1,6 @@
-package in.inueron.persistence;
+package in.app.persistence;
 
-import in.inueron.dto.Student;
+import in.app.dto.Student;
 
 public interface IStudentDao {
 

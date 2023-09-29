@@ -1,4 +1,4 @@
-package in.inueron.persistence;
+package in.app.persistence;
 
 import java.io.IOException;
 import java.sql.Connection;
@@ -6,8 +6,8 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import in.inueron.dto.Student;
-import in.inueron.util.jdbcUtil;
+import in.app.dto.Student;
+import in.app.util.jdbcUtil;
 
 //persistence logic using JDBC API
 public class StudentDaoImpl implements IStudentDao {

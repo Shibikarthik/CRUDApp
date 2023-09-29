@@ -1,4 +1,4 @@
-package in.inueron.util;
+package in.app.util;
 
 
 import java.io.IOException;
@@ -25,7 +25,7 @@ public class jdbcUtil {
 
 	public static Connection getJdbcConnection() throws SQLException, IOException {
 		
-		HikariConfig config=new HikariConfig("E:\\Eclipse _Workspace2\\JDBC CRUD App\\src\\in\\inueron\\properties\\db.properties");
+		HikariConfig config=new HikariConfig("E:\\Eclipse _Workspace2\\JDBC CRUD App\\src\\in\\app\\properties\\db.properties");
 		
 		@SuppressWarnings("resource")
 		HikariDataSource dataSource = new HikariDataSource(config);

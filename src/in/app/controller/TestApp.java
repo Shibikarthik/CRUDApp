@@ -1,14 +1,13 @@
-package in.inueron.controller;
+package in.app.controller;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 
-
-import in.inueron.dto.Student;
-import in.inueron.service.IStudentService;
-import in.inueron.servicefactory.StudentServiceFactory;
+import in.app.dto.Student;
+import in.app.service.IStudentService;
+import in.app.servicefactory.StudentServiceFactory;
 
 //controller layer
 public  class TestApp {
